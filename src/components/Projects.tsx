@@ -14,30 +14,22 @@ const Projects = () => {
   const [projects] = useState<Project[]>([
     {
       id: 1,
-      title: "Royal Grand Hotel",
-      category: "Web design",
-      image: "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-1-img.png",
-      techStack: ["HTML5", "CSS3", "Bootstrap", "Responsive Design"],
-      link: "#"
-    },
-    {
-      id: 2,
-      title: "Happy Meals",
-      category: "Web design",
-      image: "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-2-img.png",
-      techStack: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
-      link: "#"
-    },
-    {
-      id: 3,
-      title: "Weather App",
+      title: "Weather Application",
       category: "Web Application",
       image: "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-3-img.png",
       techStack: ["HTML5", "CSS3", "JavaScript", "API Integration"],
       link: "https://weatherappdrb.ccbp.tech"
     },
     {
-      id: 4,
+      id: 2,
+      title: "Gen AI",
+      category: "AI Application",
+      image: "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-1-img.png",
+      techStack: ["HTML5", "CSS3", "JavaScript", "AI Integration"],
+      link: "https://genaidrb.ccbp.tech"
+    },
+    {
+      id: 3,
       title: "Food Munch",
       category: "Food Delivery App",
       image: "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-4-img.png",
@@ -45,20 +37,52 @@ const Projects = () => {
       link: "https://foodmunchdrb.ccbp.tech"
     },
     {
+      id: 4,
+      title: "VR Website",
+      category: "Web Design",
+      image: "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-2-img.png",
+      techStack: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
+      link: "https://vrwebsitedrb.ccbp.tech"
+    },
+    {
       id: 5,
-      title: "E-commerce Store",
-      category: "Online Shopping Platform",
+      title: "Books Page",
+      category: "Web Design",
       image: "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-5-img.png",
       techStack: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
-      link: "#"
+      link: "https://bookdrb.ccbp.tech"
     },
     {
       id: 6,
-      title: "Task Manager",
-      category: "Productivity App",
+      title: "Movies Page",
+      category: "Entertainment App",
       image: "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-6-img.png",
-      techStack: ["HTML5", "CSS3", "JavaScript", "Local Storage"],
-      link: "#"
+      techStack: ["HTML5", "CSS3", "JavaScript", "API Integration"],
+      link: "https://moviedrb.ccbp.tech"
+    },
+    {
+      id: 7,
+      title: "Hotel Booking Page",
+      category: "Booking Platform",
+      image: "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-1-img.png",
+      techStack: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
+      link: "https://hotelbookingdrb.ccbp.tech"
+    },
+    {
+      id: 8,
+      title: "Goa Page",
+      category: "Travel Website",
+      image: "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-2-img.png",
+      techStack: ["HTML5", "CSS3", "Bootstrap", "Responsive Design"],
+      link: "https://goadrb.ccbp.tech"
+    },
+    {
+      id: 9,
+      title: "Project",
+      category: "Web Application",
+      image: "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-3-img.png",
+      techStack: ["HTML5", "CSS3", "JavaScript", "Web Development"],
+      link: "https://frndsdrb.ccbp.tech"
     }
   ]);
 
