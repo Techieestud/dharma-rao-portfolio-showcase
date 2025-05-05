@@ -1,5 +1,7 @@
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
+import { Button } from "./ui/button";
+import { ExternalLink } from "lucide-react";
 
 interface Project {
   id: number;
@@ -124,6 +126,29 @@ const Projects = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="mt-16">
+          <h3 className="text-2xl font-bold mb-8 text-center text-secondary">Quick Access to Projects</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {projects.map(project => (
+              <a 
+                key={project.id} 
+                href={project.link} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="w-full flex justify-center"
+              >
+                <Button 
+                  variant="outline" 
+                  className="w-4/5 p-3 text-primary border-primary hover:bg-primary hover:text-white transition-all duration-300 shadow-lg flex items-center justify-center gap-2"
+                >
+                  {project.title}
+                  <ExternalLink size={16} />
+                </Button>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </section>
